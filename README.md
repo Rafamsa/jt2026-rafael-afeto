@@ -1,47 +1,70 @@
 # Hackathon Jovens Talentos AI Builder 2026 — Seazone
 
-## 👉 Leia o desafio aqui
+**Autor:** Rafael  
+**IA Utilizada (Co-piloto e Cientista de Dados):** Antigravity (AGY)
 
-### **[ABRIR O DESAFIO COMPLETO](https://seazone-tech.github.io/jovens-talentos-2026-hackathon-data/)**
-
-Lá está tudo: a missão, os dados, **o que entregar**, as regras, o prazo e **como vamos avaliar**.
-Leia antes de começar a mexer nos dados.
-
-> Se o link acima não abrir, o mesmo conteúdo está no arquivo [`index.html`](index.html) deste repositório
-> (baixe e abra no navegador).
+Snapshot estático do mercado imobiliário de **Itapema (SC)**, com anúncios de Airbnb e de venda (VivaReal). A análise abaixo foi conduzida utilizando os dados fornecidos para identificar as melhores oportunidades de investimento na região.
 
 ---
 
-## Primeiro passo
+## 2. Análise de Faturamento
 
-**Faça um _fork_ deste repositório.** É nele que você vai trabalhar e é ele que você entrega.
+**Pergunta 1: Qual o melhor perfil de imóvel para investir na cidade?**
+Olhando só para o faturamento bruto que entra, os apartamentos de 3 a 4 quartos ganham. Mas quando o custo de compra é usado para calcular o lucro real, o *sweet spot* é o de **2 quartos, especificamente no Centro**. O custo para entrar no negócio é bem menor e a liquidez de aluguel e venda é muito maior.
+[Ver gráfico de Receita Média Anual por Perfil](graficos/receita_media_anual.png)
 
----
+**Pergunta 2: Qual a melhor localização em termos de receita?**
+O bairro **Meia Praia** é onde tem a maior quantidade de receita total, principalmente devido à quantidade gigantesca de imóveis no bairro. No entanto, quando falamos de eficiência, a receita média por imóvel no **Centro** é superior à da Meia Praia, portanto, tem maior rendimento proporcional.
+[Ver Mapa de Receita por Bairros](graficos/mapa_receita_bairros.png)
 
-## Os dados (`data/`)
-
-Snapshot estático do mercado imobiliário de **Itapema (SC)**, com anúncios de Airbnb e de venda (VivaReal).
-É a mesma base para todos os candidatos, para garantir comparação justa.
-
-| Arquivo | O que tem | Como conecta |
-|---|---|---|
-| `Details_Itapema.csv` | Cada anúncio de Airbnb: título, reviews, star rating, descrição, host_id, nº de quartos, tipo de imóvel | Base principal dos listings |
-| `Hosts_ids_Itapema.csv` | Dados do anfitrião: nº de reviews, anos como host, superhost, taxa de resposta | Liga com Details pelo `owner_id` |
-| `Mesh_Ids_Data_Itapema.csv` | Latitude/longitude + bairro de cada anúncio | Liga por listing |
-| `Price_AV_Itapema.csv` | Preço por anúncio, por data de estadia e por data de captura | Liga por listing |
-| `VivaReal_Itapema.csv` | Anúncios de venda: preço, condomínio, área, vendedor | Mercado de compra |
+**Pergunta 3: Quais características explicam as melhores receitas?**
+Maior conforto garante um preço maior, ou seja, ter ar-condicionado, TV e comodidades premium aumentam diretamente a receita. Mas há um paradoxo interessante: quando falamos de um apartamento mais luxuoso, apesar da grande receita gerada e das comodidades, temos menos avaliações e menos quantidade de anfitriões "Superhosts". Afinal, o que gera o status de *Superhost* é o alto volume de aluguéis e avaliações recebidas. Propriedades mais luxuosas e caras giram menos na quantidade de aluguéis.
+[Ver gráfico de Correlação de Fatores](graficos/correlacao_features.png)
 
 ---
 
-## Resumo do que você entrega
+## 3. A Quebra de Expectativa
 
-1. **Este repositório, forkado e público**, com a sua análise, o `README.md` explicando como rodar,
-   a pasta `ai-log/` (conversas com a IA **em texto**) e a recomendação final escrita.
-2. **Vídeo de até 3 minutos** no Google Drive, com o link na primeira linha do seu README.
+**Se a Seazone fosse investir hoje, o que você compraria e por quê?**
+Se formos pensar na melhor propriedade para comprar e investir focando apenas no maior ROI possível (risco alto e retorno alto), um apartamento de **2 a 3 quartos em Morretes** seria a melhor opção, devido ao seu retorno beirando os **9% ao ano**.
 
-O detalhe de cada item, o prazo e o formulário de entrega estão no
-**[desafio completo](https://seazone-tech.github.io/jovens-talentos-2026-hackathon-data/)**.
+Mas, quando pensamos num bairro que vai te dar uma **maior segurança e liquidez**, o melhor é o **Centro**, entregando um ROI de **8,13% ao ano**. No fim das contas, isso tem a ver com o perfil do investidor. Pela diferença de retorno ser tão pouca (menos de 1%), eu investiria com certeza absoluta em um **apartamento de 2 quartos no Centro**.
+
+**A Hipótese Desvalidada (Compactos não são a melhor opção):**
+A ideia inicial era testar se apartamentos compactos (studio/1 quarto) na região do Centro seriam a aposta mais eficiente para a Seazone. Com tudo o que avaliamos, a resposta é não. Para evitar qualquer viés da nossa análise anterior, isolamos os dados do VivaReal com o Airbnb e a matemática cravou: a verdadeira aposta eficiente é comprar no Centro com 2 quartos. A diferença de custo para adquirir um quarto a mais é de apenas **R$ 61 mil**, mas esse imóvel maior gera mais de **R$ 10 mil extras em receita por ano**, pagando o investimento adicional em poucos anos e fugindo do metro quadrado hiperinflacionado dos compactos.
 
 ---
 
-*Seazone — Jovens Talentos AI Builder 2026*
+## 4. Reprodução Técnica
+
+Para reproduzir os resultados e gráficos desta análise, você precisa ter o Python 3 instalado. Siga o passo a passo abaixo:
+
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/Rafamsa/jt2026-rafael-afeto.git
+   cd jt2026-rafael-afeto
+   ```
+2. **Crie um ambiente virtual e ative-o:**
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+3. **Instale as dependências:**
+   ```bash
+   pip install pandas matplotlib seaborn numpy
+   ```
+4. **Execute os scripts disponíveis (na raiz do projeto):**
+   - `python analyze_revenue.py`: Calcula a receita por perfil de imóvel e gera gráficos de barras.
+   - `python analyze_bairros.py`: Analisa o desempenho por bairro e gera a visualização espacial.
+   - `python analyze_correlation.py`: Avalia a correlação de comodidades com o faturamento.
+   - `python analyze_roi.py`: Cruza dados do Airbnb e VivaReal para rankear a rentabilidade (ROI).
+   - `python analyze_hypothesis.py`: Testa e isola o comparativo entre compactos e imóveis maiores no Centro.
+
+---
+
+## 5. Estrutura do Projeto / Outros Processos
+
+- `/data/`: Contém os arquivos `.csv` crus originais (detalhes, hosts, preços, malha e VivaReal).
+- `/graficos/`: Todos os gráficos e mapas geográficos plotados pelas nossas análises.
+- `/insight/`: Documentos `.md` com relatórios adicionais gerados durante nossa exploração de dados.
+- `/ai-log/`: Nesta pasta está salvo o histórico completo (transcrição) da conversa com a Inteligência Artificial, comprovando como estruturamos a análise.
