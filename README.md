@@ -25,7 +25,7 @@ Maior conforto garante um preço maior, ou seja, ter ar-condicionado, TV e comod
 
 ## 3. A Quebra de Expectativa
 
-**Se a Seazone fosse investir hoje, o que você compraria e por quê?**
+**Pergunta 4: Se a Seazone fosse investir hoje, o que você compraria e por quê?**
 Se formos pensar na melhor propriedade para comprar e investir focando apenas no maior ROI possível (risco alto e retorno alto), um apartamento de **2 a 3 quartos em Morretes** seria a melhor opção, devido ao seu retorno beirando os **9% ao ano**.
 
 Mas, quando pensamos num bairro que vai te dar uma **maior segurança e liquidez**, o melhor é o **Centro**, entregando um ROI de **8,13% ao ano**. No fim das contas, isso tem a ver com o perfil do investidor. Pela diferença de retorno ser tão pouca (menos de 1%), eu investiria com certeza absoluta em um **apartamento de 2 quartos no Centro**.
