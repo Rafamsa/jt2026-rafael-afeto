@@ -53,12 +53,8 @@ Para reproduzir os resultados e gráficos desta análise, você precisa ter o Py
    ```bash
    pip install pandas matplotlib seaborn numpy
    ```
-4. **Execute os scripts disponíveis (na raiz do projeto):**
-   - `python analyze_revenue.py`: Calcula a receita por perfil de imóvel e gera gráficos de barras.
-   - `python analyze_bairros.py`: Analisa o desempenho por bairro e gera a visualização espacial.
-   - `python analyze_correlation.py`: Avalia a correlação de comodidades com o faturamento.
-   - `python analyze_roi.py`: Cruza dados do Airbnb e VivaReal para rankear a rentabilidade (ROI).
-   - `python analyze_hypothesis.py`: Testa e isola o comparativo entre compactos e imóveis maiores no Centro.
+4. **Execute o pipeline de análise (na raiz do projeto):**
+   - `python main.py`: Roda toda a nossa esteira de dados de uma só vez (faturamento, bairros, correlações, ROI imobiliário) e regera os gráficos interativos automaticamente na pasta.
 
 ---
 
