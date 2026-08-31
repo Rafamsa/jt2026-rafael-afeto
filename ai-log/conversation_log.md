@@ -135,7 +135,7 @@ O dataset principal unificado (Airbnb) contém as informações do imóvel, da l
 *   **Data de coleta (`aquisition_date`)**: Quando o anúncio foi mapeado.
 
 ### 🤖 Antigravity (IA)
-O script acaba de finalizar sua execução com sucesso nos bastidores e os dados estão unificados! 
+O script acaba de finalizar sua execução com sucesso nos bastidores e os dados estão unificados!
 
 Se quiser que façamos alguma análise específica em cima desses dados cruzados (como descobrir a média de preço de diária por bairro, ou comparar o preço de venda de imóveis com o que eles gerariam no Airbnb para achar o melhor ROI), é só me falar! Qual seria o nosso próximo passo?
 
@@ -152,7 +152,7 @@ Atualize e rode o script em python para fazer as seguintes coisas:
 Estou instalando as bibliotecas gráficas e rodando o script para agrupar e calcular a receita anual por perfil de imóvel. Assim que ele finalizar nos próximos segundos, eu retorno com a tabela de tipologias mais lucrativas e te mostro onde os gráficos foram salvos!
 
 ### 🤖 Antigravity (IA)
-O script rodou perfeitamente, unificou as características dos imóveis e somou o faturamento ao longo do ano para gerar essa visão clara! 
+O script rodou perfeitamente, unificou as características dos imóveis e somou o faturamento ao longo do ano para gerar essa visão clara!
 
 Os gráficos foram gerados e salvos com sucesso na pasta `graficos/` dentro do seu projeto ([receita_media_anual.png](file:///home/rafa/projetos/jt2026-rafael-afeto/graficos/receita_media_anual.png) e [tamanho_amostra.png](file:///home/rafa/projetos/jt2026-rafael-afeto/graficos/tamanho_amostra.png)).
 
@@ -179,7 +179,7 @@ Peço desculpas pela confusão! Eu havia gerado o relatório apenas na interface
 Agora sim, criei a pasta `insight/` dentro do seu repositório e salvei o arquivo lá. Você pode acessá-lo diretamente neste link:
 👉 [relatorio_faturamento_itapema.md](file:///home/rafa/projetos/jt2026-rafael-afeto/insight/relatorio_faturamento_itapema.md)
 
-Neste arquivo, você encontrará a tabela estruturada com os dados cruzados e os links apontando diretamente para as imagens que geramos na pasta `graficos/`. 
+Neste arquivo, você encontrará a tabela estruturada com os dados cruzados e os links apontando diretamente para as imagens que geramos na pasta `graficos/`.
 
 Dê uma lida na tabela e nos insights listados no final do arquivo. Acha que essa análise inicial faz sentido e responde à sua pergunta sobre o melhor perfil de imóvel na cidade?
 
@@ -191,7 +191,7 @@ Atualize e rode o script em python com os seguintes passos:
 3. gera uma bisualizaçao espacial simulando um mapa, criando um grafico de dispersao que usa a longitude no eixo x e a latitude no eixo y. use cores distintas para identificar cada bairro (suburb) e ajuste o tamanho dos pontos de acordo com a receita total de cada imovel para criar um efeito parecido com um mapa de calor. salve essa figura como 'mapa_receita_bairros.png' na pasta 'graficos/'
 
 ### 🤖 Antigravity (IA)
-O script foi atualizado e executado com sucesso! 
+O script foi atualizado e executado com sucesso!
 
 Aqui está a tabela impressa com o desempenho por bairro em Itapema, ordenada pelo faturamento total:
 
@@ -220,7 +220,7 @@ Você pode conferir a imagem salva diretamente no seu repositório abrindo este 
 👉 **[graficos/mapa_receita_bairros.png](file:///home/rafa/projetos/jt2026-rafael-afeto/graficos/mapa_receita_bairros.png)**
 
 **Destaques Estratégicos:**
-1. A **Meia Praia** domina absolutamente o volume financeiro do mercado (R$ 54,8 milhões movimentados na nossa amostra) e concentra de longe o maior número de imóveis de temporada (632). 
+1. A **Meia Praia** domina absolutamente o volume financeiro do mercado (R$ 54,8 milhões movimentados na nossa amostra) e concentra de longe o maior número de imóveis de temporada (632).
 2. O **Centro**, apesar de ter um terço do volume de imóveis da Meia Praia (205), consegue extrair uma **receita média anual superior** (R$ 90,7 mil x R$ 86,7 mil da Meia Praia). Pode ser um lugar com menor saturação de concorrência!
 3. Bairros adjacentes (como Morretes e Tabuleiro dos Oliveiras) são polos ascendentes, mas suas médias anuais de rentabilidade já são visivelmente menores, o que demonstra uma provável dependência do "turismo de transbordamento" na alta temporada.
 
@@ -271,7 +271,7 @@ Quer aprofundar mais em alguma análise com base nesses dados ou já temos uma v
 
 ---
 ### 👤 Rafael (Usuário)
-Beleza agy, analisando apenas os anuncios do airbnb, vc me trouxe que os apes de 4 quartos e 4 banheiros sao os com maior lucro por ano, mas o formato de 3 quartos e 3 banheiros são sweet spot, com uma ótima liquidez. tambem me trouxe que o bairro meia praia é o que domina com relação ao volume financeiro, no entanto, o centro tem uma receita media anual superior ao bairro meia praia mesmo, com uma menor quantidade de imóveis. por fim, voce me trouxe que casas/apartamentos com uma maior comidade acabam por ser mais caros pelo conforto e faturar mais, no entanto, identificou um paradoxo: propriedades mais caras/mais luxuosos, apesar de maior comidade, apresentam menos avaliações e menos superhosts, devido, principalmente, ao baixo volume de alugueis que geram com relação à propriedades mais em conta. 
+Beleza agy, analisando apenas os anuncios do airbnb, vc me trouxe que os apes de 4 quartos e 4 banheiros sao os com maior lucro por ano, mas o formato de 3 quartos e 3 banheiros são sweet spot, com uma ótima liquidez. tambem me trouxe que o bairro meia praia é o que domina com relação ao volume financeiro, no entanto, o centro tem uma receita media anual superior ao bairro meia praia mesmo, com uma menor quantidade de imóveis. por fim, voce me trouxe que casas/apartamentos com uma maior comidade acabam por ser mais caros pelo conforto e faturar mais, no entanto, identificou um paradoxo: propriedades mais caras/mais luxuosos, apesar de maior comidade, apresentam menos avaliações e menos superhosts, devido, principalmente, ao baixo volume de alugueis que geram com relação à propriedades mais em conta.
 a impressão que deu é que olhamos apenas para o lucro, propriedades geram mais lucro bruto que outras por x, y e z motivos, mas precisamos deixar nossos insights mais reais, usando a planilha da vivareal.
 
 atualize e rode o script em python, ele deve ler a o arquivo VivaReal_Itapema.csv e seguir:
@@ -282,7 +282,7 @@ atualize e rode o script em python, ele deve ler a o arquivo VivaReal_Itapema.cs
 
 ---
 ### 👤 Rafael (Usuário)
-Beleza agy, analisando apenas os anuncios do airbnb, vc me trouxe que os apes de 4 quartos e 4 banheiros sao os com maior lucro por ano, mas o formato de 3 quartos e 3 banheiros são sweet spot, com uma ótima liquidez. tambem me trouxe que o bairro meia praia é o que domina com relação ao volume financeiro, no entanto, o centro tem uma receita media anual superior ao bairro meia praia mesmo, com uma menor quantidade de imóveis. por fim, voce me trouxe que casas/apartamentos com uma maior comidade acabam por ser mais caros pelo conforto e faturar mais, no entanto, identificou um paradoxo: propriedades mais caras/mais luxuosos, apesar de maior comidade, apresentam menos avaliações e menos superhosts, devido, principalmente, ao baixo volume de alugueis que geram com relação à propriedades mais em conta. 
+Beleza agy, analisando apenas os anuncios do airbnb, vc me trouxe que os apes de 4 quartos e 4 banheiros sao os com maior lucro por ano, mas o formato de 3 quartos e 3 banheiros são sweet spot, com uma ótima liquidez. tambem me trouxe que o bairro meia praia é o que domina com relação ao volume financeiro, no entanto, o centro tem uma receita media anual superior ao bairro meia praia mesmo, com uma menor quantidade de imóveis. por fim, voce me trouxe que casas/apartamentos com uma maior comidade acabam por ser mais caros pelo conforto e faturar mais, no entanto, identificou um paradoxo: propriedades mais caras/mais luxuosos, apesar de maior comidade, apresentam menos avaliações e menos superhosts, devido, principalmente, ao baixo volume de alugueis que geram com relação à propriedades mais em conta.
 a impressão que deu é que olhamos apenas para o lucro, propriedades geram mais lucro bruto que outras por x, y e z motivos, mas precisamos deixar nossos insights mais reais, usando a planilha da vivareal.
 
 atualize e rode o script em python, ele deve ler a o arquivo VivaReal_Itapema.csv e seguir:
@@ -327,7 +327,7 @@ Aqui está a **verdadeira rentabilidade (ROI bruto a.a.)** de Itapema, ordenada 
 
 2. **O Verdadeiro Sweet Spot (Morretes):** O bairro de Morretes desponta como a escolha do investidor inteligente. Um **apartamento de 2 ou 3 quartos em Morretes** tem um custo de aquisição incrivelmente acessível (entre R$ 750k e R$ 1M), mas gera uma receita de temporada muito próxima aos bairros de luxo. Isso projeta um ROI espetacular beirando os **9% ao ano**. O dinheiro volta para o seu bolso em pouco mais de 11 anos, antes mesmo de considerar a valorização imobiliária.
 
-3. **O "Híbrido" Seguro (Centro - 2 Quartos):** Se você faz questão de estar num bairro nobre para garantir segurança e liquidez na venda futura, o **Centro com 2 quartos** é fantástico. Custa por volta de R$ 1.1M, fatura pesados R$ 94 mil ao ano no Airbnb (melhor até que o 2 quartos da Meia Praia) e crava impressionantes **8.13%** de ROI. 
+3. **O "Híbrido" Seguro (Centro - 2 Quartos):** Se você faz questão de estar num bairro nobre para garantir segurança e liquidez na venda futura, o **Centro com 2 quartos** é fantástico. Custa por volta de R$ 1.1M, fatura pesados R$ 94 mil ao ano no Airbnb (melhor até que o 2 quartos da Meia Praia) e crava impressionantes **8.13%** de ROI.
 
 Fizemos um avanço gigantesco na qualidade da análise! Quer que eu exporte esses resultados do ROI para algum arquivo (como um CSV, PDF ou Markdown) para você arquivar, ou nossa análise encerra por aqui?
 
@@ -352,7 +352,7 @@ Vamos detalhar exatamente o porquê da sua linha de pensamento ser a de um inves
 ### Conclusão
 Ao escolher o Centro em vez de Morretes, você está abrindo mão de menos de **1% de rentabilidade anual** (de 8,7% para 8,13%) para **cortar o seu risco de vacância e desvalorização pela metade**. Em finanças, quando você paga barato para mitigar um risco grande, chamamos isso de um excelente negócio.
 
-Investir no Centro de Itapema (foco em apartamentos de 2 quartos) é, baseado nos dados que extraímos, a escolha mais inteligente, equilibrada e sustentável a longo prazo! 
+Investir no Centro de Itapema (foco em apartamentos de 2 quartos) é, baseado nos dados que extraímos, a escolha mais inteligente, equilibrada e sustentável a longo prazo!
 
 Foi um prazer participar dessa análise com você. Posso ajudar a fazer mais alguma coisa ou o projeto já está pronto para guiar seus investimentos?
 
@@ -386,7 +386,7 @@ A sua hipótese de que o 2 quartos no Centro seria muito mais eficiente que o 1 
 * **Ganho de Receita Adicional:** R$ 10.151 a mais por ano
 
 **O que isso significa na prática?**
-Você paga apenas R$ 61.786 a mais para comprar um apartamento de 2 quartos no Centro (em vez de 1 quarto), porque o custo do metro quadrado de imóveis compactos no Centro é muito inflacionado. 
+Você paga apenas R$ 61.786 a mais para comprar um apartamento de 2 quartos no Centro (em vez de 1 quarto), porque o custo do metro quadrado de imóveis compactos no Centro é muito inflacionado.
 
 No entanto, ao colocar esse 2 quartos para alugar, você ganha R$ 10.151 a mais de receita todos os anos. Esse "investimento extra" de 61 mil se paga em apenas **6 anos**. Além disso, o apartamento de 2 quartos atinge o público de famílias (que viajam em maior número), tendo uma ocupação melhor, e será muito mais fácil de revender do que um apartamento de 1 quarto, que restringe o seu público final.
 
@@ -426,7 +426,7 @@ pergunta 3: Quais características explicam as melhores receitas? maior conforto
 e terminaria esse tópico com a discussão e desvalidação da hipótese (apartamentos compactos (studio/1 quarto) na região do Centro seriam a aposta mais eficiente para a Seazone): a ideia inicial era testar se apartamentos compactos (studio/1 quarto) na região do Centro seriam a aposta mais eficiente. Com tudo o que avaliamos, a resposta é não. Para evitar qualquer viés da nossa análise anterior, isolamos os dados do VivaReal com o Airbnb e a matemática cravou: a verdadeira aposta eficiente é comprar no centro com 2 quartos. A diferença de custo para adquirir um quarto a mais é de apenas R$ 61 mil, mas esse imóvel maior gera mais de R$ 10 mil extras em receita por ano, pagando o investimento adicional em pouco tempo e fugindo do metro quadrado hiperinflacionado dos compactos.
 
 4. reproduçaõ tecnica: cria um passo a passo tecnico e limpo explicando como rodar os scripts em python presentes nesse repositório.
-5. outros processos (pode mudar o nome, nao pensei num melhor): mostre como acessar as outras pastas e o que tem nelas, como os graficos e dados. tbm, já crie uma pasta chamada 'ai-log/' e escreva que nessa pasta está a conversa com a IA utilizada (pode falar que a ia usada foi voce, vc tbm merece seu protagonismo como auxiliar), mas ainda nao coloque nada nesse ai-log, faremos isso depois. 
+5. outros processos (pode mudar o nome, nao pensei num melhor): mostre como acessar as outras pastas e o que tem nelas, como os graficos e dados. tbm, já crie uma pasta chamada 'ai-log/' e escreva que nessa pasta está a conversa com a IA utilizada (pode falar que a ia usada foi voce, vc tbm merece seu protagonismo como auxiliar), mas ainda nao coloque nada nesse ai-log, faremos isso depois.
 
 vamos aproveitar esse prompt e dê git add . e push no repositorio no github. na mensgem de commit, seja objetivo e atue como um verdadeiro dev.
 
@@ -444,7 +444,7 @@ Além disso:
 - A pasta `ai-log/` foi criada e está pronta para receber a nossa conversa.
 - Todos os arquivos, gráficos, scripts e o novo README foram **commitados com sucesso** (mensagem: `docs: restructure README and add analysis scripts/charts`).
 
-**⚠️ Atenção:** O comando `git push` não conseguiu ser concluído automaticamente porque o GitHub pediu as suas credenciais de login (Username/Senha ou Token de acesso). 
+**⚠️ Atenção:** O comando `git push` não conseguiu ser concluído automaticamente porque o GitHub pediu as suas credenciais de login (Username/Senha ou Token de acesso).
 
 Como eu não tenho acesso às suas credenciais por segurança, para enviar tudo para o repositório remoto basta você abrir o terminal no seu VS Code, garantir que está na pasta `projetos/jt2026-rafael-afeto` e digitar:
 ```bash
@@ -459,7 +459,7 @@ Trabalho de cientista de dados entregue com sucesso absoluto. Mais algum passo o
 gostaria que voce avaliasse, voce separou os scripts em python, não é mais útil todos juntos em um só?
 
 ### 🤖 Antigravity (IA)
-Essa é uma excelente pergunta e toca num ponto fundamental de como apresentamos projetos de ciência de dados (ainda mais em um hackathon)! 
+Essa é uma excelente pergunta e toca num ponto fundamental de como apresentamos projetos de ciência de dados (ainda mais em um hackathon)!
 
 Na minha avaliação como cientista de dados, **depende muito do objetivo da entrega:**
 
@@ -474,7 +474,7 @@ Se juntarmos tudo, ganhamos duas vantagens gigantes:
 2. **Código mais limpo e rápido:** Atualmente, cada script carrega os mesmos arquivos `.csv` do zero. Juntando tudo, nós carregamos a base de dados uma única vez na memória e apenas derivamos as diferentes análises, o que deixa a execução infinitamente mais rápida.
 
 **O Veredito:**
-Para a entrega final do desafio, **sim, é muito mais útil e profissional unificar tudo num único arquivo `main.py`** (ou num _Jupyter Notebook_ `.ipynb`, que é o formato queridinho dos Cientistas de Dados). 
+Para a entrega final do desafio, **sim, é muito mais útil e profissional unificar tudo num único arquivo `main.py`** (ou num _Jupyter Notebook_ `.ipynb`, que é o formato queridinho dos Cientistas de Dados).
 
 Você quer que eu pegue todos os scripts que criamos e consolide em um único e poderoso `main.py` (ou `analise_completa.ipynb`), e em seguida atualize o `README.md` com esse comando único para facilitar a vida do seu avaliador?
 
@@ -517,4 +517,3 @@ Tudo alinhado. Lembre de dar o `git push` no terminal depois, e boa sorte com o 
 ---
 ### 👤 Rafael (Usuário)
 perfeito, agora, para finalizar, quero que crie uma pasta chamada "ai-log/" e nela, insira um arquivo .md que consta as nossas conversas para resolver todo esse desafio, desde o começo ate agora. por fim, de git add, git commit (crie uma mensagem objetiva e profissional) e git push e voce está liberada dos seus serviços
-
