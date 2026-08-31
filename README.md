@@ -4,7 +4,9 @@
 **🤖 IA Utilizada (Co-piloto e Cientista de Dados):** Antigravity (AGY)
 
 Acesse o [video](https://drive.google.com/drive/folders/1GePSUpBtj1R2QzdwTnCytBba7M6BjA8U?usp=sharing)
+
 Acesse a [transcrição do vídeo](https://docs.google.com/document/d/15MMsTrmFqs7UByHkw_IhkKoJb84bS0rSNAKwS3S9OVY/edit?usp=sharing)
+
 Snapshot estático do mercado imobiliário de **Itapema (SC)**, com anúncios de Airbnb e de venda (VivaReal). A análise abaixo foi conduzida utilizando os dados fornecidos para identificar as melhores oportunidades de investimento na região.
 
 ---
