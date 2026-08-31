@@ -1,0 +1,14 @@
+# Ambiente Virtual
+venv/
+env/
+.env
+
+# Arquivos e pastas do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Configurações de sistema e editores
+.DS_Store
+.vscode/
+.idea/
